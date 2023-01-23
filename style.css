@@ -210,6 +210,10 @@ section {
   display: flex;
 }
 
+.spotify_playlist {
+  display: flex;
+}
+
 .playlist {
   margin: 0 5px;
 }
@@ -239,5 +243,36 @@ section {
   .personal_image {
     width: calc(100vw - 25px);
     height: 500px;
+  }
+  .spotify {
+    display: flex;
+    flex-direction: column;
+  }
+  .playlist {
+    margin: 0px 5px 0px 0px;
+  }
+  .verde_notte {
+    margin-left: 5px;
+  }
+  .project_presentation {
+    position: static;
+  }
+  .project_description {
+    position: static;
+    padding: 0;
+    width: calc(100vw - 25px);
+    margin-top: 20px;
+  }
+  .project {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+  }
+  .img_container {
+    flex-grow: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    max-width: 1000px;
   }
 }
