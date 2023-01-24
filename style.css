@@ -163,11 +163,13 @@ section {
   font-weight: 300;
   font-size: var(--reg);
   text-decoration: underline;
+  padding: 0;
 }
 
 .button_email:hover {
   background-color: rgb(20, 197, 20);
   transition: all 0.5s ease;
+  padding: 0;
 }
 
 .about {
@@ -244,6 +246,11 @@ section {
     width: calc(100vw - 25px);
     height: 500px;
   }
+
+  .about {
+    gap: 50px;
+  }
+
   .spotify {
     display: flex;
     flex-direction: column;
@@ -274,5 +281,9 @@ section {
     margin-right: 0px;
     margin-top: 20px;
     max-width: 1000px;
+  }
+
+  .about_contacts {
+    margin-bottom: 50px;
   }
 }

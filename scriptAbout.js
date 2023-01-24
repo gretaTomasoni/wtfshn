@@ -1,16 +1,3 @@
-const buttonName = document.querySelector("#buttonName");
-
-//* button "chiara santopietro" - "about"
-buttonName.addEventListener("mouseover", function () {
-  buttonName.textContent = "about";
-  buttonName.className = "green";
-});
-
-buttonName.addEventListener("mouseout", function () {
-  buttonName.textContent = "chiara santopietro";
-  buttonName.classList.remove("green");
-});
-
 const buttonDesign = document.querySelector("#buttonDesign");
 
 //* button "design & art direction" - "home"
